@@ -82,7 +82,8 @@ export default function EmpowermentSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
               mb={4}>
-              EMPOWERMENT THROUGH
+              {/* EMPOWERMENT THROUGH */}
+              WATERVIS DEEP-SEA
             </MotionText>
 
             <MotionText
@@ -106,7 +107,7 @@ export default function EmpowermentSection() {
                   "0 0 30px rgba(103, 80, 255, 0.4), 0 0 60px rgba(152, 25, 171, 0.2)",
                 ],
               }}>
-              ENTERTAINMENT
+              ORIGIN
             </MotionText>
           </Flex>
 
@@ -151,15 +152,16 @@ export default function EmpowermentSection() {
                     WebkitTextFillColor: "transparent",
                   }}
                   mb={6}>
-                  KPOPROAD VR LIVE
+                  WATERVIS DEEP ORIGIN
                 </Text>
                 <Text
                   fontSize={{ base: "sm", md: "md", lg: "lg" }}
                   color="rgba(255, 255, 255, 0.9)"
                   lineHeight="tall"
                   fontWeight="medium">
-                  Step into ultra-immersive VR experiences, meticulously crafted
-                  in collaboration with global top-tier artists.
+                  Access the pristine energy of 1,032m deep-sea water,
+                  meticulously sourced and verified to deliver nature's purest
+                  minerals directly to you.
                 </Text>
               </Box>
             </MotionBox>
@@ -198,15 +200,16 @@ export default function EmpowermentSection() {
                     WebkitTextFillColor: "transparent",
                   }}
                   mb={6}>
-                  KPOPROAD PLAY
+                  WATERVIS RWA LINK
                 </Text>
                 <Text
                   fontSize={{ base: "sm", md: "md", lg: "lg" }}
                   color="rgba(255, 255, 255, 0.9)"
                   lineHeight="tall"
                   fontWeight="medium">
-                  Uniting the energy of K-POP with Web3 innovation to create
-                  seamless, borderless connections between artists and fans.
+                  Uniting the essential value of Water with Web3 innovation to
+                  create seamless, transparent connections between premium
+                  resources and global consumers.
                 </Text>
               </Box>
             </MotionBox>

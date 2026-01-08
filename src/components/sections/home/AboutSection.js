@@ -210,7 +210,7 @@ export default function AboutSection() {
                     repeat: Infinity,
                   },
                 }}>
-                REVOLUTIONIZING ENTERTAINMENT
+                REVOLUTIONIZING HYDRATION
               </MotionText>
 
               {/* Description */}
@@ -226,8 +226,9 @@ export default function AboutSection() {
                   lineHeight={{ base: "1.6", md: "1.7" }}
                   fontWeight={400}
                   mb={{ base: 4, md: 5 }}>
-                  NEXST integrates AI, RWA and Blockchain to make entertainment
-                  even more accessible and immersive for fans worldwide.
+                  WATERVIS LABS integrates AI, RWA and Blockchain to make
+                  premium deep-sea water accessible and transparent for
+                  consumers worldwide.
                 </Text>
 
                 <Text
@@ -241,8 +242,9 @@ export default function AboutSection() {
                   lineHeight={{ base: "1.6", md: "1.7" }}
                   fontWeight={400}
                   mb={{ base: 6, md: 8 }}>
-                  We aim to transform the global entertainment landscape by
-                  leveraging cutting-edge technologies in innovative formats.
+                  We aim to transform the global wellness landscape by
+                  leveraging cutting-edge technologies in sustainable water
+                  resources.
                 </Text>
               </Box>
 

@@ -86,7 +86,8 @@ export default function BuildingBlockSection() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}>
-            THE BUILDING BLOCKS{" "}
+            {/* THE BUILDING BLOCKS{" "} */}
+            THE CORE ELEMENTS{" "}
             <Text
               fontSize={{ base: "lg", md: "xl", lg: "2xl" }}
               fontWeight={300}
@@ -96,7 +97,7 @@ export default function BuildingBlockSection() {
               OF
             </Text>
             <br />
-            THE KPOPROAD UNIVERSE
+            OF THE WATERVIS UNIVERSE
           </MotionText>
 
           {/* Enhanced Cards Grid */}
@@ -152,15 +153,17 @@ export default function BuildingBlockSection() {
                   }}
                   mb={6}
                   lineHeight="short">
-                  KPOPROAD IMMERSIVE REALITY
+                  {/* KPOPROAD IMMERSIVE REALITY */}
+                  WATERVIS DEEP-SEA ORIGIN
                 </Text>
                 <Text
                   fontSize={{ base: "sm", md: "md", lg: "lg" }}
                   color="rgba(255, 255, 255, 0.9)"
                   lineHeight="tall"
                   fontWeight="medium">
-                  Experience extraordinary VR journeys, meticulously brought to
-                  life alongside world-acclaimed artists.
+                  Experience the pristine journey from 1,032m depth,
+                  meticulously sourced and verified to bring the ocean's pure
+                  energy to life
                 </Text>
               </Box>
             </MotionBox>
@@ -211,17 +214,18 @@ export default function BuildingBlockSection() {
                   }}
                   mb={6}
                   lineHeight="short">
-                  KPOPROAD ON-CHAIN ASSETS
+                  WATERVIS ON-CHAIN ASSETS
                 </Text>
                 <Text
                   fontSize={{ base: "sm", md: "md", lg: "lg" }}
                   color="rgba(255, 255, 255, 0.9)"
                   lineHeight="tall"
-                  fontWeight="medium">
-                  Digitizing premium entertainment assets—from concert tickets
-                  and exclusive merchandise to VIP experiences—delivering
-                  authenticated ownership and unlocking innovative revenue
-                  channels.
+                  fontWeight="medium"
+                  // textAlign="left"
+                >
+                  Digitizing premium water resources-from mineral data
+                  verification to physical redemption rights-delivering
+                  authenticated quality and unlocking sustainable RWA value.
                 </Text>
               </Box>
             </MotionBox>

@@ -24,15 +24,15 @@ export default function Home() {
 
       {/* <LandingPageSection /> */}
 
-      {/* <Box id="about">
+      <Box id="about">
         <PreciseScrollAnimation
           animation="fadeInUp"
           threshold={0.25}
           delay={0.1}>
           <AboutSection />
         </PreciseScrollAnimation>
-      </Box> */}
-      {/* 
+      </Box>
+
       <PreciseScrollAnimation
         animation="fadeInLeft"
         threshold={0.3}
@@ -51,6 +51,16 @@ export default function Home() {
         </Box>
       </PreciseScrollAnimation>
 
+      <PreciseScrollAnimation animation="scaleIn" threshold={0.4} delay={0.2}>
+        <Box id="team">
+          <RoadmapSection />
+        </Box>
+      </PreciseScrollAnimation>
+      {/* 
+
+
+
+
       <PreciseScrollAnimation
         animation="fadeInRight"
         threshold={0.3}
@@ -60,11 +70,7 @@ export default function Home() {
         </Box>
       </PreciseScrollAnimation>
 
-      <PreciseScrollAnimation animation="scaleIn" threshold={0.4} delay={0.2}>
-        <Box id="team">
-          <RoadmapSection />
-        </Box>
-      </PreciseScrollAnimation>
+
 
       <PreciseScrollAnimation
         animation="slideInUp"
