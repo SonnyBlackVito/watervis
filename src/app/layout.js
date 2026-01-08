@@ -104,7 +104,7 @@ export const metadata = {
       "Watervis is the ultimate Web3 platform that connects fans and artists through blockchain technology, NFTs, and immersive experiences.",
     images: [
       {
-        url: "/welcome_banner_1200x600.png",
+        url: "/background_image_watervis.jpg",
         width: 1200,
         height: 600,
         alt: "Watervis - The Ultimate Web3 Platform",
