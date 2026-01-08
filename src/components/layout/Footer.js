@@ -13,12 +13,12 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <Container
-      color="white"
-      bgColor="#BEBEBE"
+      color="#12131A"
+      bgColor="#12131A"
       fontWeight={500}
       maxW="100%"
       minH={{ base: "auto", md: "30vh" }}
-      backgroundColor="footerBackground"
+      // backgroundColor="footerBackground"
       py={{ base: 6, sm: 8, md: 12 }}
       px={{ base: 4, sm: 6, md: 8 }}>
       <VStack spacing={{ base: 6, md: 8 }}>
