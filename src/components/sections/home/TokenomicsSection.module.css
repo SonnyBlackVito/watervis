@@ -1,0 +1,301 @@
+@keyframes milkyWayFlow {
+    0% {
+      transform: translateX(-100px) rotate(0deg);
+      opacity: 0.1;
+    }
+    50% {
+      transform: translateX(0px) rotate(180deg);
+      opacity: 0.3;
+    }
+    100% {
+      transform: translateX(100px) rotate(360deg);
+      opacity: 0.1;
+    }
+}
+
+@keyframes starTwinkle {
+    0%, 100% {
+      opacity: 0.1;
+      transform: scale(0.8);
+    }
+    10% {
+      opacity: 0.3;
+      transform: scale(0.9);
+    }
+    20% {
+      opacity: 0.1;
+      transform: scale(0.8);
+    }
+    30% {
+      opacity: 0.8;
+      transform: scale(1.1);
+    }
+    40% {
+      opacity: 0.2;
+      transform: scale(0.85);
+    }
+    50% {
+      opacity: 0.9;
+      transform: scale(1.2);
+    }
+    60% {
+      opacity: 0.1;
+      transform: scale(0.8);
+    }
+    70% {
+      opacity: 0.6;
+      transform: scale(1.05);
+    }
+    80% {
+      opacity: 0.2;
+      transform: scale(0.9);
+    }
+    90% {
+      opacity: 0.7;
+      transform: scale(1.1);
+    }
+}
+
+@keyframes gentleWhiteFlicker1 {
+    0%, 100% {
+      opacity: 0.1;
+    }
+    30% {
+      opacity: 0.4;
+    }
+    60% {
+      opacity: 0.2;
+    }
+    80% {
+      opacity: 0.3;
+    }
+}
+
+@keyframes gentleWhiteFlicker2 {
+    0%, 100% {
+      opacity: 0.15;
+    }
+    25% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    75% {
+      opacity: 0.35;
+    }
+}
+
+@keyframes gentleWhiteFlicker3 {
+    0%, 100% {
+      opacity: 0.2;
+    }
+    20% {
+      opacity: 0.6;
+    }
+    40% {
+      opacity: 0.25;
+    }
+    70% {
+      opacity: 0.4;
+    }
+}
+
+@keyframes starShimmer {
+    0% {
+      opacity: 0;
+      transform: translateY(0px) scale(0) rotate(0deg);
+    }
+    30% {
+      opacity: 0.5;
+      transform: translateY(-8px) scale(0.8) rotate(90deg);
+    }
+    60% {
+      opacity: 0.8;
+      transform: translateY(-12px) scale(1.1) rotate(180deg);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-20px) scale(0) rotate(360deg);
+    }
+}
+
+@keyframes galaxyRotate {
+    0% {
+      transform: rotate(0deg) scale(1);
+    }
+    50% {
+      transform: rotate(180deg) scale(1.05);
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+    }
+}
+
+@keyframes nebulaGlow {
+    0%, 100% {
+      opacity: 0.15;
+      filter: blur(2px) brightness(1);
+    }
+    50% {
+      opacity: 0.4;
+      filter: blur(1px) brightness(1.2);
+    }
+}
+
+@keyframes cosmicPulse {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 0.08;
+    }
+    50% {
+      transform: scale(1.05);
+      opacity: 0.2;
+    }
+}
+
+@keyframes sparkleRain {
+    0% {
+      transform: translateY(-100px) translateX(0px);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(100vh) translateX(50px);
+      opacity: 0;
+    }
+}
+
+/* Tokenomics Creative Animation */
+@keyframes tokenomicsReveal {
+    0% {
+      transform: scale(0.8) rotate(-10deg);
+      opacity: 0;
+      filter: blur(5px);
+    }
+    50% {
+      transform: scale(1.05) rotate(5deg);
+      opacity: 0.8;
+      filter: blur(1px);
+    }
+    100% {
+      transform: scale(1) rotate(0deg);
+      opacity: 1;
+      filter: blur(0px);
+    }
+}
+
+@keyframes tokenomicsGlow {
+    0%, 100% {
+      filter: drop-shadow(0 0 10px rgba(106, 78, 221, 0.3)) brightness(1);
+    }
+    50% {
+      filter: drop-shadow(0 0 25px rgba(106, 78, 221, 0.6)) brightness(1.1);
+    }
+}
+
+@keyframes tokenomicsFloat {
+    0%, 100% {
+      transform: translateY(0px) scale(1);
+    }
+    50% {
+      transform: translateY(-8px) scale(1.02);
+    }
+}
+
+@keyframes tokenomicsPulse {
+    0%, 100% {
+      transform: scale(1);
+      filter: brightness(1);
+    }
+    50% {
+      transform: scale(1.05);
+      filter: brightness(1.2);
+    }
+}
+
+.chartAnim {
+  animation: tokenomicsReveal 2s ease-out forwards, tokenomicsFloat 4s ease-in-out infinite 2s;
+}
+
+.chartAnim:hover {
+  animation: tokenomicsGlow 2s ease-in-out infinite, tokenomicsPulse 1.5s ease-in-out infinite;
+}
+
+.tokenomicsSparkleBg {
+  position: relative;
+  overflow: hidden;
+  background: 
+    /* Milky Way Core */
+    radial-gradient(ellipse 800px 200px at 50% 50%, rgba(106, 78, 221, 0.25) 0%, transparent 70%),
+    /* Galaxy Arms */
+    linear-gradient(45deg, rgba(217, 92, 217, 0.18) 0%, transparent 30%, transparent 70%, rgba(192, 192, 192, 0.18) 100%),
+    linear-gradient(-45deg, rgba(106, 78, 221, 0.15) 0%, transparent 40%, transparent 60%, rgba(217, 92, 217, 0.15) 100%),
+    /* Deep Space */
+    linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(42, 42, 42, 0.1) 50%, rgba(0, 0, 0, 0.1) 100%);
+}
+
+.tokenomicsSparkleBg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    radial-gradient(3px 3px at 50px 30px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(2px 2px at 200px 200px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(4px 4px at 400px 50px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(3px 3px at 600px 180px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(4px 4px at 800px 20px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(2px 2px at 1000px 150px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(3px 3px at 1200px 80px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(2px 2px at 1400px 220px, rgba(255, 255, 255, 1), transparent);
+  background-repeat: no-repeat;
+  animation: gentleWhiteFlicker1 6s ease-in-out infinite;
+}
+
+.tokenomicsSparkleBg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(2px 2px at 100px 120px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(3px 3px at 300px 10px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(2px 2px at 500px 190px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(3px 3px at 700px 60px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(4px 4px at 900px 170px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(2px 2px at 1100px 40px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(3px 3px at 1300px 130px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(2px 2px at 1500px 210px, rgba(255, 255, 255, 1), transparent);
+  background-repeat: no-repeat;
+  animation: gentleWhiteFlicker2 7s ease-in-out infinite;
+}
+
+.sparkleOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image:
+    radial-gradient(3px 3px at 80px 80px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(2px 2px at 250px 15px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(3px 3px at 450px 140px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(2px 2px at 650px 25px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(4px 4px at 850px 160px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(2px 2px at 1050px 35px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(3px 3px at 1250px 120px, rgba(255, 255, 255, 1), transparent),
+    radial-gradient(2px 2px at 1450px 200px, rgba(255, 255, 255, 1), transparent);
+  background-repeat: no-repeat;
+  animation: gentleWhiteFlicker3 8s ease-in-out infinite;
+  pointer-events: none;
+}

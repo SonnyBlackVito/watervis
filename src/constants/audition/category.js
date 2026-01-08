@@ -1,0 +1,5 @@
+export const CATEFORIES = {
+  FANIDOL: "FANIDOL",
+  AUDITION: "AUDITION",
+  KPOPCARD: "KPOPCARD",
+}

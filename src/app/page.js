@@ -1,66 +1,95 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+// "use client";
+
+// import HeroSection from "@/components/HeroSection";
+
+// import HeroSection from "@/components/sections/home/HeroSection";
+import AboutSection from "@/components/sections/home/AboutSection";
+import BuildingBlockSection from "@/components/sections/home/BuildingBlockSection";
+import EmpowermentSection from "@/components/sections/home/EmpowermentSection";
+import TokenomicsSection from "@/components/sections/home/TokenomicsSection";
+import RoadmapSection from "@/components/sections/home/RoadmapSection";
+import PartnerSection from "@/components/sections/home/PartnerSection";
+import OurWebsiteSection from "@/components/sections/home/OurWebsiteSection";
+import StayTunedSection from "@/components/sections/home/StayTunedSection";
+import ContactUsSection from "@/components/sections/home/ContactUsSection";
+
+import PreciseScrollAnimation from "@/components/PreciseScrollAnimation";
+import HeroSection from "@/components/sections/home/HeroSection";
+import { Box } from "@chakra-ui/react";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.js file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <Box bg="#12131A" overflowX="hidden" overflowY="hidden">
+      <HeroSection />
+
+      {/* <LandingPageSection /> */}
+
+      {/* <Box id="about">
+        <PreciseScrollAnimation
+          animation="fadeInUp"
+          threshold={0.25}
+          delay={0.1}>
+          <AboutSection />
+        </PreciseScrollAnimation>
+      </Box> */}
+      {/* 
+      <PreciseScrollAnimation
+        animation="fadeInLeft"
+        threshold={0.3}
+        delay={0.05}>
+        <Box id="services">
+          <BuildingBlockSection />
+        </Box>
+      </PreciseScrollAnimation>
+
+      <PreciseScrollAnimation
+        animation="fadeInRight"
+        threshold={0.3}
+        delay={0.1}>
+        <Box id="features">
+          <EmpowermentSection />
+        </Box>
+      </PreciseScrollAnimation>
+
+      <PreciseScrollAnimation
+        animation="fadeInRight"
+        threshold={0.3}
+        delay={0.1}>
+        <Box id="features">
+          <TokenomicsSection />
+        </Box>
+      </PreciseScrollAnimation>
+
+      <PreciseScrollAnimation animation="scaleIn" threshold={0.4} delay={0.2}>
+        <Box id="team">
+          <RoadmapSection />
+        </Box>
+      </PreciseScrollAnimation>
+
+      <PreciseScrollAnimation
+        animation="slideInUp"
+        threshold={0.3}
+        delay={0.15}>
+        <Box id="portfolio">
+          <PartnerSection />
+        </Box>
+      </PreciseScrollAnimation>
+
+      <PreciseScrollAnimation animation="fadeInUp" threshold={0.3} delay={0.1}>
+        <Box id="testimonials">
+          <OurWebsiteSection />
+        </Box>
+      </PreciseScrollAnimation>
+
+      <PreciseScrollAnimation animation="fadeIn" threshold={0.35} delay={0.2}>
+        <Box id="contact">
+          <StayTunedSection />
+        </Box>
+      </PreciseScrollAnimation>
+
+      <PreciseScrollAnimation animation="fadeInUp" threshold={0.3} delay={0.1}>
+        <ContactUsSection />
+      </PreciseScrollAnimation> */}
+    </Box>
   );
 }

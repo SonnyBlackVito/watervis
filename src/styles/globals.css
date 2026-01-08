@@ -1,0 +1,34 @@
+:root {
+  --background: #111; 
+  --foreground: #111;
+  --color1: rgb(0, 231, 255);
+  --color2: rgb(255, 0, 231);
+  --back: url(https://cdn2.bulbagarden.net/upload/1/17/Cardback.jpg);
+  --charizard1: #fac;
+  --charizard2: #ddccaa;
+  --charizardfront: url(https://assets.codepen.io/13471/charizard-gx.webp);
+  --pika1: #54a29e;
+  --pika2: #a79d66;
+  --pikafront: url(https://assets.codepen.io/13471/pikachu-gx.webp);
+  --eevee1: #efb2fb;
+  --eevee2: #acc6f8;
+  --eeveefront: url(https://assets.codepen.io/13471/eevee-gx.webp);
+  --mewtwo1: #efb2fb;
+  --mewtwo2: #acc6f8;
+  --mewtwofront: url(https://assets.codepen.io/13471/mewtwo-gx.webp);
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px; 
+}
+
+body {
+  color: var(--foreground);
+  /* color: #111; */
+  /* background: #111; */
+
+  background: var(--background);
+  font-family:  var(--font-sora);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
