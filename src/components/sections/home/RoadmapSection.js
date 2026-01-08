@@ -1,10 +1,5 @@
 "use client";
-import {
-  Box,
-  Flex,
-  Text,
-  VStack,
-} from "@chakra-ui/react";
+import { Box, Flex, Text, VStack } from "@chakra-ui/react";
 import { motion } from "framer-motion";
 import { keyframes } from "@emotion/react";
 
@@ -50,36 +45,36 @@ export default function RoadmapSection() {
     {
       id: "01",
       title: "PHASE 01",
-      timeline: "Q1 2025 - Q3 2025",
+      timeline: "Q1 2026 - Q2 2026",
       description:
-        "Whitepaper Release — Website Launch — NXT Token Launch — Announcement of the Artist content collaboration.",
+        "Whitepaper Release — Website Launch — Token Generation Event(TGE) — Strategic Partnerships Partnerships with Watervis CO.",
       color: "#0EFE21",
       isActive: true,
     },
     {
       id: "02",
       title: "PHASE 02",
-      timeline: "Q3 2025 - Q4 2025",
+      timeline: "Q3 2026 - Q4 2026",
       description:
-        "Phase 2 focuses on launching an AI powered Web6 entertainment platform and RWA platform, alongside fostering community engagement and partnerships with our AI-powered models.",
+        "Phase 2 focuses on launching the RWA Staking Platform for physical water redemption, verifying mineral data on-chain, and fostering community engagement for healthy lifestyles.",
       color: "#8B5CF6",
       isActive: false,
     },
     {
       id: "03",
       title: "PHASE 03",
-      timeline: "Q4 2025 - Q2 2026",
+      timeline: "Q1 2027 - Q2 2027",
       description:
-        "Phase 3 focuses on launching an AI powered Web6 entertainment platform and RWA platform, alongside fostering community engagement and partnerships with our AI-powered models.",
+        "Phase 3 focuses on expanding the Global Logistics Network for efficient delivery and establishing partnerships with global wellness brands to enhance the token utility.",
       color: "#8B5CF6",
       isActive: false,
     },
     {
       id: "04",
       title: "PHASE 04",
-      timeline: "Q3 2026 ONWARD",
+      timeline: "Q3 2027 ONWARD",
       description:
-        "Phase 4 aims to enhance the AI-driven personalization experience by integrating DePIN entertainment. This phase will focus on building a comprehensive KpopRoad Xverse entertainment ecosystem that fosters artistic freedom and co-creates a vibrant environment to enrich the fan experience.",
+        "Phase 4 aims to enhance the AI-driven health analysis experience by integrating DePIN for water infrastructure. This phase will focus on building a comprehensive Watervis Bio-Ecosystem that promotes sustainable health and co-creates value for all participants.",
       color: "#8B5CF6",
       isActive: false,
     },
@@ -93,8 +88,7 @@ export default function RoadmapSection() {
       overflow="hidden"
       display="flex"
       alignItems="center"
-      justifyContent="center"
-    >
+      justifyContent="center">
       <MotionBox
         position="absolute"
         top="0"
@@ -300,8 +294,7 @@ export default function RoadmapSection() {
                 scale: 1.1,
                 rotateY: 10,
                 transition: { duration: 0.3 },
-              }}
-            >
+              }}>
               {[...Array(4)].map((_, i) => (
                 <MotionBox
                   key={i}
@@ -358,8 +351,7 @@ export default function RoadmapSection() {
                     delay: 2.5 + index * 0.3,
                     type: "spring",
                     stiffness: 100,
-                  }}
-                >
+                  }}>
                   <MotionBox
                     position="absolute"
                     left={{ base: "-10px", md: "12px" }}
@@ -410,8 +402,7 @@ export default function RoadmapSection() {
                       direction={{ base: "column", sm: "row" }}
                       justify="space-between"
                       align={{ base: "start", sm: "center" }}
-                      mb={4}
-                    >
+                      mb={4}>
                       <MotionText
                         fontSize={{ base: "xl", md: "2xl" }}
                         fontWeight="bold"
@@ -555,4 +546,4 @@ export default function RoadmapSection() {
       ))}
     </Box>
   );
-};
+}

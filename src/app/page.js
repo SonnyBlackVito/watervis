@@ -21,9 +21,7 @@ export default function Home() {
   return (
     <Box bg="#12131A" overflowX="hidden" overflowY="hidden">
       <HeroSection />
-
       {/* <LandingPageSection /> */}
-
       <Box id="about">
         <PreciseScrollAnimation
           animation="fadeInUp"
@@ -32,7 +30,6 @@ export default function Home() {
           <AboutSection />
         </PreciseScrollAnimation>
       </Box>
-
       <PreciseScrollAnimation
         animation="fadeInLeft"
         threshold={0.3}
@@ -41,7 +38,6 @@ export default function Home() {
           <BuildingBlockSection />
         </Box>
       </PreciseScrollAnimation>
-
       <PreciseScrollAnimation
         animation="fadeInRight"
         threshold={0.3}
@@ -50,12 +46,14 @@ export default function Home() {
           <EmpowermentSection />
         </Box>
       </PreciseScrollAnimation>
-
       <PreciseScrollAnimation animation="scaleIn" threshold={0.4} delay={0.2}>
         <Box id="team">
           <RoadmapSection />
         </Box>
       </PreciseScrollAnimation>
+      <PreciseScrollAnimation animation="fadeInUp" threshold={0.3} delay={0.1}>
+        <ContactUsSection />
+      </PreciseScrollAnimation>{" "}
       {/* 
 
 
