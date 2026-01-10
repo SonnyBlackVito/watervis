@@ -573,11 +573,11 @@ const Header = ({ onHome, onAbout }) => {
     //     },
     //   ],
     // },
-    // {
-    //   key: "whitepaper",
-    //   label: "WHITEPAPER",
-    //   href: "https://docs.kpoproad.com",
-    // },
+    {
+      key: "whitepaper",
+      label: "WHITEPAPER",
+      href: "https://salescore.gitbook.io/watervislab/",
+    },
     // {
     //   key: "news",
     //   label: "NEWS",
