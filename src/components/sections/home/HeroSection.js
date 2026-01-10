@@ -13,10 +13,23 @@ export default function HeroSection() {
       py={{ base: 4, md: 8 }}
       px={{ base: 4, md: 24 }}
       // backgroundImage="url('/animated_wave_light_light.gif')"
-      backgroundImage="url('/background_image_watervis.jpg')"
+      backgroundImage="url('/background_image_watervis1.jpg')"
       backgroundSize="cover"
       backgroundPosition="center"
-      backgroundRepeat="no-repeat">
+      backgroundRepeat="no-repeat"
+      // _before={{
+      //   content: '""',
+      //   position: "absolute",
+      //   inset: 0,
+      //   backgroundImage: "url('/background_image_watervis.jpg')",
+      //   backgroundSize: "cover",
+      //   backgroundPosition: "center",
+      //   backgroundRepeat: "no-repeat",
+      //   filter: "blur(800px)", // 👈 blur hình ảnh
+      //   transform: "scale(1.1)", // tránh viền trắng
+      //   zIndex: -1,
+      // }}
+    >
       <VStack flex="1" justifyContent="center" textAlign="center" gap={4}>
         {/* <AnimatedLogo /> */}
       </VStack>
